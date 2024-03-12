@@ -1,7 +1,7 @@
 {
-  "name": "practice",
+  "name": "express-and-node-practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "Practice project for express and node.js",
   "main": "index.js",
   "scripts": {
     "devStart": " nodemon server.js",
