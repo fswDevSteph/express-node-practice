@@ -1,8 +1,8 @@
 //? 1: Import the express module
-const express = require('express');
+const express = require('express')
 
 //? 2. Creates an express application
-const app = express();
+const app = express()
 
 //! 4. BREAD AND BUTTER - Create routes for the app; RESTful APIs. Standard HTTP request/respond methods
 //? Request data from the server
@@ -12,16 +12,16 @@ app.get('/', (req, res) => {
 });
 
 //? Post/Send/Submit data to the server. 
-app.post()
+// app.post()
 
-//? Used for updating or replacing an entire resource on the server.
-app.put()
+// //? Used for updating or replacing an entire resource on the server.
+// app.put()
 
-//? Used to apply partial modifications to a resource. 
-app.patch()
+// //? Used to apply partial modifications to a resource. 
+// app.patch()
 
 
-app.delete()
+// app.delete()
 
 //? 3. Tell the app to listen on port 3001
 app.listen(3001);
