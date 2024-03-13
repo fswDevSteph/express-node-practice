@@ -6,6 +6,8 @@ const app = express();
 app.set('view engine', 'ejs')
 //?//? middleware function that logs out the request url
 app.use(logger)
+//?
+app.use(express.static('public'));
 //? 5. Import the userRouter
 const userRouter = require('./routes/users');
 
