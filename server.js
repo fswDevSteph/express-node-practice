@@ -3,6 +3,7 @@ const express = require('express')
 
 //? 2. Creates an express application
 const app = express()
+app.set('view engine', 'ejs')
 
 //! 4. BREAD AND BUTTER - Create routes for the app; RESTful APIs. Standard HTTP request/respond methods
 //? Request data from the server
