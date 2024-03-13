@@ -8,7 +8,9 @@ const app = express()
 //? Request data from the server
 app.get('/', (req, res) => {
     console.log('Here')
-    res.send('Hi, User! I sent you this response')
+    // res.sendStatus(200) can not be chained but .status can
+    res.status(200).send('This is the response being sent to the user.')
+    res.render('index')
 });
 
 //? Post/Send/Submit data to the server. 
